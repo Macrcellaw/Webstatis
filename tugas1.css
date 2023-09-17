@@ -1,0 +1,13 @@
+body{
+    background-color: #deb887
+}
+.Intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Saya2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
