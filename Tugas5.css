@@ -1,0 +1,65 @@
+*{
+    padding: 5px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #FFC0CB;
+}
+
+#judul{
+    background-color: powderblue;
+    color: palevioletred;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border: 10px dotted plum;
+    margin-bottom: 28px;
+}
+
+.kodfun-galeri{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+.kodfun-galeri > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.content{
+    padding-right: 28px;
+    padding-left: 28px;
+    font-size: 18px;
+}
+
+.content .opening p{
+    margin-bottom: 15px;
+}
+
+.content img{
+    width: 650px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content div h3,
+.content div p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form{
+    padding: 20px;
+    background-color: skyblue;
+    border: 3px solid violet;
+}
+
+.created{
+    background-color: wheat;
+}
