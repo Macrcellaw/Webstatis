@@ -1,0 +1,104 @@
+body{
+    font: 16/28px arial, sans-serif;
+    background-color: burlywood;
+    color: black
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: peachpuff;
+    outline-style: solid;
+    outline-color: crimson;
+}
+
+.header{
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.container .header ul{
+    margin-left: -40px;
+}
+
+.header a{
+    text-decoration: none;
+    color: violet
+    padding: 3px;
+}
+
+.hero{
+    height: 380px;
+    background-image: url(openingcontentbunga.jpeg);
+    background-size: cover;
+    background-position: 0 -75px;
+    outline-style: solid;
+    outline-color: plum;
+    outline-width: 3px;
+  }
+  
+  .content{
+    padding: 15px;
+  }
+  
+  .content .penulis{
+    margin-top: -15px;
+    font-size: 16px;
+  }
+  
+  .content .penulis a{
+    text-decoration: none;
+    color: plum;
+  }
+  
+  .content p{
+    text-align: justify;
+  }
+  
+  .tabelheading h2{
+    padding: 15px;
+    margin-top: -20px;
+  }
+  
+  .tabeljenis{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 780px;
+    height: 100px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  
+  td{
+    text-align: justify;
+    padding: 15px;
+  }
+  
+  th{
+    text-align: center;
+  }
+  
+  .footer{
+    background-color: plum;
+    text-align: center;
+  }
+  
+  .footer .besar{
+    color: yellow;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  
+  .footer .besar{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
